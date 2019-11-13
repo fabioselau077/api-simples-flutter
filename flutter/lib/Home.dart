@@ -54,6 +54,8 @@ class _HomeState extends State<Home> {
     String conteudo = _controllerConteudo.text;
     String data = _controllerData.text;
 
+    //Altera o IP para o seu IP local caso for utilizar o emulador.
+    //É recomendado deixar online utilizando alguma hospedagem de sites.
     String url = "http://192.168.0.36:80/api/add_contato.php?id=&nome=${nome}&conteudo=${conteudo}&data=${data}";
     http.Response response;
 
