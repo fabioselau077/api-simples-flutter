@@ -15,12 +15,14 @@ class _HomeState extends State<Home> {
   TextEditingController _controllerData = TextEditingController();
   String _resultado = "";
 
+
   _validarCampos(){
 
     if(_controllerNome.text.isNotEmpty){
       if(_controllerConteudo.text.isNotEmpty){
         if(_controllerData.text.isNotEmpty){
 
+          //Caso todos os campos não estiverem vazios, será chamado a função para cadastrar o contato utilizando a API em PHP
           _cadastrarContato();
 
         }else{
