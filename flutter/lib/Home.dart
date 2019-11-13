@@ -10,12 +10,14 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
 
+  //Controladores
   TextEditingController _controllerNome = TextEditingController();
   TextEditingController _controllerConteudo = TextEditingController();
   TextEditingController _controllerData = TextEditingController();
   String _resultado = "";
 
 
+  //Função para validar os campos (se não estão vazios) antes de cadastrar.
   _validarCampos(){
 
     if(_controllerNome.text.isNotEmpty){
