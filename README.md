@@ -7,6 +7,8 @@ Atenção: A API é simples e não possui nenhuma segurança contra invasões. F
 ## Prints
 ### Aplicativo
 <img src="https://user-images.githubusercontent.com/57275833/68807022-7261b880-063d-11ea-83f4-062060a06369.png" height="400" width="200">
+<img src="https://user-images.githubusercontent.com/57275833/68813243-9fb56300-064b-11ea-8391-b573f66d0c9a.png" height="400" width="200">
+<img src="https://user-images.githubusercontent.com/57275833/68813304-cd9aa780-064b-11ea-943b-075a0f1ccd6c.png" height="400" width="200">
 
 ### Painel de Administração
 <img src="https://user-images.githubusercontent.com/57275833/68807640-91147f00-063e-11ea-83ec-691f241ca1a4.png">
