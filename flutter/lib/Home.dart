@@ -10,7 +10,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
 
-  //Controladores
+  //Controladores dos campos de texto
   TextEditingController _controllerNome = TextEditingController();
   TextEditingController _controllerConteudo = TextEditingController();
   TextEditingController _controllerData = TextEditingController();
@@ -52,6 +52,7 @@ class _HomeState extends State<Home> {
 
   }
   
+  //Função para cadastrar o contato no banco de dados MySQL utilizando uma API simples em PHP.
   _cadastrarContato() async {
 
     String nome = _controllerNome.text;
