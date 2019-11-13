@@ -68,6 +68,7 @@ class _HomeState extends State<Home> {
 
     setState(() {
       _resultado = "Contato adicionado com sucesso!";
+      _limparCampos();
     });
 
   }
