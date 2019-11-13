@@ -72,6 +72,7 @@ class _HomeState extends State<Home> {
 
   }
 
+  //Limpa os campos digitados.
   _limparCampos(){
 
     setState(() {
