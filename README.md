@@ -15,7 +15,9 @@ Atenção: A API é simples e não possui nenhuma segurança contra invasões. F
 - [x] Criação do banco de dados
 - [x] Criação da API
 - [x] Criação do projeto no Flutter
-- [ ] Criação do painel de administração
+- [x] Criação do painel de administração
+- [ ] Criação da tela de listagem dos contatos cadastrados no aplicativo
+- [ ] Criação da função de editar e remover os contatos no aplicativo
 
 ## Créditos e Links
 [Font Awesome](https://fontawesome.com/) </br>
