@@ -67,7 +67,11 @@ class _HomeState extends State<Home> {
 
   _limparCampos(){
 
-
+    setState(() {
+      _controllerNome = TextEditingController(text: "");
+      _controllerConteudo = TextEditingController(text: "");
+      _controllerData = TextEditingController(text: "");
+    });
 
   }
 
@@ -165,11 +169,7 @@ class _HomeState extends State<Home> {
                       borderRadius: BorderRadius.circular(32)
                     ),
                     onPressed: () {
-                          setState(() {
-                            _controllerNome = TextEditingController(text: "");
-                            _controllerConteudo = TextEditingController(text: "");
-                            _controllerData = TextEditingController(text: "");
-                            });
+                        _limparCampos();
                     },
                   ),
                 ),
